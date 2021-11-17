@@ -45,27 +45,26 @@
 
 #banner2{
 
-  background-image: url(img/DuaLipa.jpg);
+  background-image: url(img/harry.jpg);
   background-size: cover;
   padding: 20% 2%;
   background-attachment: fixed;
-
 }
 
 .descripcion{
-  font-family: 'Amatic SC', cursive;
-  font-size: 1.2rem;
+    font-family: 'Amatic SC', cursive;
+    font-size: 1.2rem;
 }
 
 .fondoIcono{
-  color: white;
+    color: white;
 }
 
 .fondo2{
-  background-color: #544C6E;
+    background-color: #544C6E;
 }
 
 footer{
-  background-color: black;
-  color: white;
+    background-color: black;
+    color: white;
 }

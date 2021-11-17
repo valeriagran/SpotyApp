@@ -1,6 +1,6 @@
 #banner{
 
-    background-image: url(img/musica.jpg);
+    background-image: url(img/fondo.jpeg);
     background-size: cover;
     padding: 20% 2%;
     position: relative;
@@ -31,30 +31,20 @@
     background-color: transparent !important;
 }
 
+.zoom img{
+
+    transition: 0.5s filter 0.5s ease;
+    filter: grayscale(100%);
+}
+
 .zoom{
     overflow: hidden;
 }
 
-.zoom img{
-    transition: 0.5s ease;
-}
-
 .zoom:hover img{
-    transform: scale(1.5);
-}
 
-.zoom2{
-    overflow: hidden;
-}
-
-.zoom2 img{
-    transition: 0.5s filter 1.3s ease;
-    filter: grayscale(100%);
-}
-
-.zoom2:hover img{
     filter: grayscale(0);
-    transform: scale(1.5);
+    transform: scale(1);
 }
 
 .descripcion{
@@ -66,13 +56,19 @@
     color: black;
 }
 
-.fondo2{
-    color: #544C6E;
+.fondoIcono{
+    color: white;
 }
 
-.fondofooter{
-    background-color: #6B6974;
+.fondo2{
+    background-color: #544C6E;
 }
+
+footer{
+    background-color: #888397;
+    color: white;
+}
+
 
 
 
